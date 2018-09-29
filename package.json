@@ -1,5 +1,5 @@
 {
-  "name": "@arkie/open-api",
+  "name": "@arkie-ai/open-api",
   "version": "0.0.1",
   "description": "Node.js SDK for ARKie Open API",
   "main": "lib/index.js",

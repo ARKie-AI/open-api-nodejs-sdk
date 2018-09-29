@@ -20,7 +20,7 @@ import {
   getPosterById,
   getPosters,
   deletePosterById,
-} from '@arkie/open-api'
+} from '@arkie-ai/open-api'
 
 const client = new ArkieAPIClient('<你的 app key>', '<你的 app secret>')
 
