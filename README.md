@@ -4,10 +4,10 @@
 
 ## 安装
 ```bash
-npm i @arkie/open-api
+npm i @arkie-ai/open-api
 ```
 ```bash
-yarn add @arkie/open-api
+yarn add @arkie-ai/open-api
 ```
 
 ## 快速上手
