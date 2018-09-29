@@ -32,7 +32,7 @@ export class ArkieAPIClient {
   constructor(
     readonly appKey: string,
     appSecret: string,
-    readonly stage: 'TEST' | 'STAGING' | 'RELEASE' = 'RELEASE',
+    readonly stage: 'TEST' | 'PRE' | 'RELEASE' = 'RELEASE',
   ) {
     this.appSecret = Buffer.from(appSecret, 'utf8')
   }
