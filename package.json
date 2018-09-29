@@ -1,0 +1,43 @@
+{
+  "name": "@arkie/open-api",
+  "version": "0.0.0",
+  "description": "Node.js SDK for ARKie Open API",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "ts-node --project tools/tsconfig.json tools/build.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ARKie-AI/open-api-nodejs-sdk.git"
+  },
+  "keywords": [
+    "arkie",
+    "poster"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ARKie-AI/open-api-nodejs-sdk/issues"
+  },
+  "homepage": "https://github.com/ARKie-AI/open-api-nodejs-sdk#readme",
+  "devDependencies": {
+    "@types/node": "^10.11.3",
+    "@types/readdir-enhanced": "^2.2.0",
+    "@types/shelljs": "^0.8.0",
+    "@types/uuid": "^3.4.4",
+    "javascript-stringify": "^1.6.0",
+    "readdir-enhanced": "^2.2.1",
+    "shelljs": "^0.8.2",
+    "ts-node": "^7.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "querystring": "^0.2.0",
+    "uuid": "^3.3.2"
+  }
+}
