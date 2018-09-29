@@ -1,6 +1,6 @@
 {
   "name": "@arkie-ai/open-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js SDK for ARKie Open API",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
